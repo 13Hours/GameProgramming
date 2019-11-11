@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=AnimDisappear
+comment0.text=\r\n\t\ \ \ \ The\ AnimDisappear\ class\ is\ an\ Animation\ object\ that\ slowly\r\n\t\ \ \ \ disappears\ and\ then\ reappears\ and\ the\ effect\ is\ repeated.\r\n
+comment1.params=f\ x\ y\ dx\ dy\ xSize\ ySize\ filename
+comment1.target=AnimDisappear(javax.swing.JFrame,\ int,\ int,\ int,\ int,\ int,\ int,\ java.lang.String)
+comment1.text=\r\n\t\ \ \ \ Creates\ a\ new,\ empty\ Animation,\ loads\ the\ images,\ and\r\n\t\ \ \ \ adds\ them\ to\ the\ Animation.\ A\ copy\ of\ the\ Animation\ frames\r\n\t\ \ \ \ is\ also\ made\ for\ the\ disappearing\ effect.\r\n
+comment2.params=framesCopy\ frames
+comment2.target=void\ copyAnimation(java.util.ArrayList,\ java.util.ArrayList)
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\t\ \ \ \ Updates\ this\ animation's\ current\ image\ (frame),\ if\r\n\t\ \ \ \ neccesary\ and\ applies\ the\ disappearing\ effect\ to\ the\ image.\r\n
+comment4.params=
+comment4.target=void\ updatePosition()
+comment5.params=g
+comment5.target=void\ draw(java.awt.Graphics)
+comment6.params=
+comment6.target=java.awt.image.BufferedImage\ getImage()
+comment6.text=\r\n\t\ \ \ \ Gets\ this\ Animation's\ current\ image.\ Returns\ null\ if\ this\r\n\t\ \ \ \ animation\ has\ no\ images.\r\n
+comment7.params=src
+comment7.target=java.awt.image.BufferedImage\ copyImage(java.awt.image.BufferedImage)
+numComments=8

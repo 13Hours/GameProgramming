@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Bat
+comment1.params=f\ x\ y\ dx\ dy\ xSize\ ySize\ filename
+comment1.target=Bat(javax.swing.JFrame,\ int,\ int,\ int,\ int,\ int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ setPosition()
+comment3.params=
+comment3.target=void\ update()
+comment4.params=
+comment4.target=void\ moveLeft()
+comment5.params=
+comment5.target=void\ moveRight()
+comment6.params=
+comment6.target=void\ moveUp()
+comment7.params=
+comment7.target=void\ moveDown()
+comment8.params=
+comment8.target=void\ loadClips()
+comment9.params=index
+comment9.target=void\ playClip(int)
+numComments=10
